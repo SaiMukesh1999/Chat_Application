@@ -1,7 +1,7 @@
 import { Link, useLocation } from "react-router";
 import { useAuthUser} from '../lib/api'
 import { BellIcon, LogOutIcon, ShipWheelIcon } from "lucide-react";
-import ThemeSelector from "./Themeselector";
+import ThemeSelector from "./ThemeSelector";
 import useLogout from "../hooks/useLogout";
 
 const Navbar = () => {
